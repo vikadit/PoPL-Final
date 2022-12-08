@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/screenOneFragment">
+    <fragment
+        android:id="@+id/screenOneFragment"
+        android:name="androidsamples.java.popl.ScreenOneFragment"
+        android:label="Improve Stats Layout">
+        <action
+            android:id="@+id/action_screenOneFragment_to_screenTwoFragment"
+            app:destination="@id/screenTwoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/screenThreeFragment"
+        android:name="androidsamples.java.popl.ScreenThreeFragment"
+        android:label="Dice Layout">
+        <action
+            android:id="@+id/action_screenThreeFragment_to_screenFourFragment"
+            app:destination="@id/screenFourFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/screenFourFragment"
+        android:name="androidsamples.java.popl.ScreenFourFragment"
+        android:label="Feedback Form" />
+    <fragment
+        android:id="@+id/screenTwoFragment"
+        android:name="androidsamples.java.popl.ScreenTwoFragment"
+        android:label="Change Weight">
+        <action
+            android:id="@+id/action_screenTwoFragment_to_screenThreeFragment"
+            app:destination="@id/screenThreeFragment" />
+    </fragment>
+</navigation>

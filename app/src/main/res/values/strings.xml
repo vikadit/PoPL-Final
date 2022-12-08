@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">popl</string>
+    <string name="feedback_title">Feedback Form</string>
+    <string name="feedback_info">Please fill out this short customer feedback form so we can ensure top quality service to all our customers.</string>
+    <string name="feedback_edit1">How would you rate your overall customer experience</string>
+    <string name="feedback_edit2">How satisfied were you with the product?</string>
+    <string name="feedback_edit3">Would you recommend our product or service to others?</string>
+    <string name="dice_title">Dice Games</string>
+    <string name="dice_info">Gamble to receive upto 4 times your wagered amount! Just input your wager, choose your odds and roll the die!</string>
+    <string name="twoAlike">2 alike</string>
+    <string name="dice_twoAlike">2alike</string>
+    <string name="dice_threeAlike">3alike</string>
+    <string name="dice_four_alike">4alike</string>
+    <string name="dice_edit">Input Wager</string>
+    <string name="zero">0</string>
+    <string name="date_label">Date</string>
+    <string name="month_label">Month</string>
+    <string name="year_label">Year</string>
+    <string name="check">Next</string>
+    <string name="placeholder">Placeholder</string>
+    <string name="date_helper">1 or 2 digits for Day</string>
+    <string name="month_helper">1 or 2 digits for Month</string>
+    <string name="year_helper">4 digits for Year</string>
+    <string name="find_out_day_of_the_week_for_a_given_date">Find out day of the week for a given date</string>
+</resources>
