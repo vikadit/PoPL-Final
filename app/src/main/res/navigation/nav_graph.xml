@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph"
     app:startDestination="@id/screenOneFragment">
     <fragment
@@ -23,7 +22,11 @@
     <fragment
         android:id="@+id/screenFourFragment"
         android:name="androidsamples.java.popl.ScreenFourFragment"
-        android:label="Feedback Form" />
+        android:label="Feedback Form">
+        <action
+            android:id="@+id/action_screenFourFragment_to_screenFiveFragment"
+            app:destination="@id/screenFiveFragment" />
+    </fragment>
     <fragment
         android:id="@+id/screenTwoFragment"
         android:name="androidsamples.java.popl.ScreenTwoFragment"
@@ -32,4 +35,8 @@
             android:id="@+id/action_screenTwoFragment_to_screenThreeFragment"
             app:destination="@id/screenThreeFragment" />
     </fragment>
+    <fragment
+        android:id="@+id/screenFiveFragment"
+        android:name="androidsamples.java.popl.ScreenFiveFragment"
+        android:label="ScreenFiveFragment" />
 </navigation>
